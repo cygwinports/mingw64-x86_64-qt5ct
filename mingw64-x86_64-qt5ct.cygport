@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross qt5-qmake
 
 NAME="mingw64-x86_64-qt5ct"
-VERSION=0.25
+VERSION=0.27
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Qt5 settings for Win64 toolchain"
