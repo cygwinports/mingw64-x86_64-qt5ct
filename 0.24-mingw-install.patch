@@ -6,7 +6,7 @@
  }
 +
 +win32 {
-+  PLUGINDIR = $$[QT_INSTALL_PLUGINS]/platformthemes
++  PLUGINDIR = $$[QT_INSTALL_PLUGINS]
 +  BINDIR = $$[QT_INSTALL_BINS]
 +}
 --- origsrc/qt5ct-0.24/qt5ct.pro	2016-06-02 00:14:58.000000000 -0500

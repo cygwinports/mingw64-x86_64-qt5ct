@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross qt5-qmake
 
 NAME="mingw64-x86_64-qt5ct"
-VERSION=0.33
+VERSION=0.34
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Qt5 settings for Win64 toolchain"
@@ -13,4 +13,5 @@ SRC_URI="mirror://sourceforge/qt5ct/qt5ct-${VERSION}.tar.bz2"
 SRC_DIR="qt5ct-${VERSION}"
 PATCH_URI="
 	0.24-mingw-install.patch
+	0.34-os-win.patch
 "
